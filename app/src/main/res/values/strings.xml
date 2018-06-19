@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">CodeForFood</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="SignIn">Button</string>
+    <string name="SignUp">Button</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="signin">Sign In</string>
+    <string name="signup">Sign Up</string>
 </resources>
