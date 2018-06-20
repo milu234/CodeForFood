@@ -10,5 +10,8 @@
     <string name="todo2">TODO</string>
     <string name="signin">Sign In</string>
     <string name="signup">Sign Up</string>
-    <string name="todo1">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="button2">Sign In</string>
+    <string name="button3">Sign Up</string>
+    <string name="textview2">Welcome to Food Almighty</string>
 </resources>
