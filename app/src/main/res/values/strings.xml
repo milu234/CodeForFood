@@ -14,4 +14,7 @@
     <string name="button2">Sign In</string>
     <string name="button3">Sign Up</string>
     <string name="textview2">Welcome to Food Almighty</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
 </resources>
