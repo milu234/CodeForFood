@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button buttonLM = (Button)findViewById(R.id.buttonLM);
+        Button buttonJTC = (Button)findViewById(R.id.buttonJtC);
 
 
 
@@ -32,5 +33,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(int1);
             }
         });
+
+        buttonJTC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivity();
+            }
+        });
+    }
+    public void  openActivity(){
+        Intent intent = new Intent(this,SignUp.class);
+        startActivity(intent);
     }
 }

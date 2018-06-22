@@ -1,39 +1,31 @@
 {
   "project_info": {
-    "project_number": "165953331200",
-    "firebase_url": "https://androideatit-d0ec9.firebaseio.com",
-    "project_id": "androideatit-d0ec9",
-    "storage_bucket": "androideatit-d0ec9.appspot.com"
+    "project_number": "254025838373",
+    "firebase_url": "https://codeforfood-bc6e2.firebaseio.com",
+    "project_id": "codeforfood-bc6e2",
+    "storage_bucket": "codeforfood-bc6e2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:165953331200:android:ddbbb607d7da15bb",
+        "mobilesdk_app_id": "1:254025838373:android:7ab943b13339ce4c",
         "android_client_info": {
-          "package_name": "com.example.milan.eatit"
+          "package_name": "com.example.milan.codeforfood"
         }
       },
       "oauth_client": [
         {
-          "client_id": "165953331200-3q9nl9lv3ohi6ndfqr4rtp00ms53b8b8.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.milan.eatit",
-            "certificate_hash": "1f78f86d11e86dc20da5cd9d1ea0cef2f68fafc7"
-          }
-        },
-        {
-          "client_id": "165953331200-pvt5u1u1tkg7j4pohr39404d7o384j0v.apps.googleusercontent.com",
+          "client_id": "254025838373-cio4ovd7u0ldnift7kpt1c759l1ghpu9.apps.googleusercontent.com",
           "client_type": 3
         },
         {
-          "client_id": "165953331200-pvt5u1u1tkg7j4pohr39404d7o384j0v.apps.googleusercontent.com",
+          "client_id": "254025838373-cio4ovd7u0ldnift7kpt1c759l1ghpu9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBg_maXkNBRQuqpsH8mQQgf8cMph9tsg_c"
+          "current_key": "AIzaSyD2HYSvJH_sgARxlfFmublUo1EG7cw1JVU"
         }
       ],
       "services": {
@@ -41,13 +33,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "165953331200-pvt5u1u1tkg7j4pohr39404d7o384j0v.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2
