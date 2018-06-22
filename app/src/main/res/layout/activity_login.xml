@@ -31,19 +31,19 @@
             android:inputType="textWebPassword" />
 
         <Button
-            android:id="@+id/buttonRegister"
+            android:id="@+id/buttonSignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:text="Register User" />
+            android:text="Login" />
 
         <TextView
             android:textAlignment="center"
-            android:id="@+id/textViewSignIn"
+            android:id="@+id/textViewSignUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Already Registered?Log in here"
-             />
+            android:text="Not Have an Account? Sign Up Here"
+            />
 
 
     </LinearLayout>
