@@ -26,6 +26,29 @@
             android:layout_gravity="center_horizontal"
             />
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextFullName"
+            android:hint="Enter Your Full Name"
+            android:inputType="text"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextMobileNumber"
+            android:hint="Enter Mobile Number"
+            android:inputType="text"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSaveInformation"
+            android:layout_gravity="center_horizontal"
+            android:text="Save Information"/>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
