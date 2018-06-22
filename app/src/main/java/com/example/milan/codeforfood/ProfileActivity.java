@@ -3,6 +3,7 @@ package com.example.milan.codeforfood;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -64,6 +65,21 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         String name = editTextFullName.getText().toString().trim();
         String mob = editTextMobileNumber.getText().toString().trim();
 
+        if (TextUtils.isEmpty(name)){
+            //email is Empty
+            Toast.makeText(this,"PLease Enter your name",Toast.LENGTH_LONG).show();
+            //stopping the function from executing
+            return;
+        }
+
+        if(TextUtils.isEmpty(mob)){
+            //password is Empty
+            Toast.makeText(this,"Please Enter the mobile number",Toast.LENGTH_LONG).show();
+            return;
+        }
+//        progressDialog.setMessage("Logged In");
+//        progressDialog.show();
+
         UserInformation userInformation = new UserInformation(name,mob);
 
         FirebaseUser user = firebaseAuth.getCurrentUser();
@@ -71,6 +87,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
         databaseReference.child(user.getUid()).setValue(userInformation);
 
         Toast.makeText(this,"Information Saved",Toast.LENGTH_LONG).show();
+        //startActivity(new Intent(this,SignUp.class));
 
 
     }
@@ -85,6 +102,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
         if (view == buttonSaveInformation){
             saveUserInformation();
+            startActivity(new Intent(this,LearnMore.class));
         }
 
     }
