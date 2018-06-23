@@ -13,7 +13,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class Main2Activity extends AppCompatActivity {
+public class UserInfo extends AppCompatActivity {
     private TextView textViewName;
     private TextView textViewMobile;
     private FirebaseAuth firebaseAuth;
@@ -42,7 +42,7 @@ public class Main2Activity extends AppCompatActivity {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                Toast.makeText(Main2Activity.this,databaseError.getCode(),Toast.LENGTH_LONG).show();
+                Toast.makeText(UserInfo.this,databaseError.getCode(),Toast.LENGTH_LONG).show();
 
             }
         });

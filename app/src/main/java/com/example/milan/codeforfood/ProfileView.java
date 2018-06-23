@@ -14,7 +14,7 @@ public class ProfileView extends AppCompatActivity implements View.OnClickListen
     private Button buttonLogout;
     private Button buttonCompleteProfile;
     private  Button buttonUpdateProfile;
-
+    private Button buttonUserInfo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +24,7 @@ public class ProfileView extends AppCompatActivity implements View.OnClickListen
         buttonLogout = (Button)findViewById(R.id.buttonLogout);
         buttonCompleteProfile = (Button)findViewById(R.id.buttonCompleteProfile);
         buttonUpdateProfile = (Button)findViewById(R.id.buttonUpdateProfile);
+        buttonUserInfo = (Button)findViewById(R.id.buttonUserInfo);
         if (firebaseAuth.getCurrentUser()==null){
             finish();
             startActivity(new Intent(this,MainActivity.class));
@@ -32,6 +33,7 @@ public class ProfileView extends AppCompatActivity implements View.OnClickListen
         buttonLogout.setOnClickListener(this);
         buttonCompleteProfile.setOnClickListener(this);
         buttonUpdateProfile.setOnClickListener(this);
+        buttonUserInfo.setOnClickListener(this);
 
 
 
@@ -57,6 +59,11 @@ public class ProfileView extends AppCompatActivity implements View.OnClickListen
             //Update Profile
             finish();
             startActivity(new Intent(this,UpdateProfile.class));
+        }
+
+        if(view==buttonUserInfo){
+            finish();
+            startActivity(new Intent(this,UserInfo.class));
         }
 
 

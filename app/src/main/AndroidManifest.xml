@@ -28,7 +28,7 @@
         <activity android:name=".ResetPassword" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".ProfileView" />
-        <activity android:name=".Main2Activity" />
+        <activity android:name=".UserInfo" />
         <activity android:name=".UpdateProfile" />
     </application>
 
