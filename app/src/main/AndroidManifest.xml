@@ -28,6 +28,10 @@
         <activity android:name=".ResetPassword" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".ProfileView" />
+        <activity android:name=".UpdateDelete" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".UpdateProfile" />
     </application>
 
 </manifest>

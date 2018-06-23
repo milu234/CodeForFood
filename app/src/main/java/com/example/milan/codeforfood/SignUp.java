@@ -97,6 +97,8 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener{
             }
         });
 
+        
+
         //if the form is valid we will show the progress bar
 
     }
